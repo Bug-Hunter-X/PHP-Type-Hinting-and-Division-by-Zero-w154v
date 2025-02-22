@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in PHP related to type hinting and division by zero. The `foo` function has type hints, but doesn't handle the edge case of division by zero, leading to unexpected runtime errors.  The solution shows how to add error handling to prevent this.
